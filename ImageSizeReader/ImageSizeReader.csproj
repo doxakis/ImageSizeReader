@@ -1,5 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <Title>Image size reader</Title>
+    <Description>
+      Getting image dimensions without reading an entire file.
+      
+      - No GDI+ involved here, only pure c#
+      - Optimized for memory consuption and being cloud friendly
+      - Early stop when it cannot determine the dimensions
+    </Description>
+    <AssemblyTitle>ImageSizeReader</AssemblyTitle>
+		<VersionPrefix>1.0.0</VersionPrefix>
+		<AssemblyName>ImageSizeReader</AssemblyName>
+		<TargetFrameworks>netstandard2.0</TargetFrameworks>
+		<PackageId>ImageSizeReader</PackageId>
+		<Authors>doxakis</Authors>
+		<PackageProjectUrl>https://github.com/doxakis/ImageSizeReader</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/doxakis/ImageSizeReader/blob/master/LICENSE</PackageLicenseUrl>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/doxakis/ImageSizeReader</RepositoryUrl>
   </PropertyGroup>
 </Project>
