@@ -10,7 +10,7 @@ namespace ImageSizeReader
 		Size GetDimensions(Stream stream);
 	}
 
-	public class ImageSizeReaderUtil
+	public class ImageSizeReaderUtil : IImageSizeReaderUtil
 	{
 		public Size GetDimensions(Stream stream)
 		{
